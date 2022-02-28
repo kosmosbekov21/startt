@@ -1,15 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import s from './Header.module.css'
-
-const Dropdown = () => {
+import { Dropdown } from 'react-bootstrap'
+const Header = () => {
   return (
     <div>
       <ul className={s.menu}>
 
-      {/* <Dropdown>
+      <Dropdown>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
-    Dropdown Button
+    КАТАЛОГ ЧАСОВ
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
@@ -17,7 +17,7 @@ const Dropdown = () => {
     <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
   </Dropdown.Menu>
-</Dropdown> */}
+</Dropdown>
 
         <li>
           <NavLink to="/">Главный</NavLink>
@@ -38,4 +38,4 @@ const Dropdown = () => {
   )
 }
 
-export default Dropdown
+export default Header

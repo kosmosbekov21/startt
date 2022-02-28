@@ -4,7 +4,7 @@ import im from '../../image/Hero 3D.png'
 const Menu = () => {
     return (
         <div className={m.hedr}>
-            <div className={m.hedr2}>
+            {/* <div className={m.hedr2}>
             <h1>Grow your
                 subscription
                 business</h1>
@@ -13,7 +13,7 @@ const Menu = () => {
             </div>
           <div>
         <img src={im} />
-          </div>
+          </div> */}
         </div>
     )
 }
